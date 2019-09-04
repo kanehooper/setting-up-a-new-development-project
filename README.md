@@ -26,12 +26,12 @@ Get up git version control on the project by running the following command:
 
 2. Add the following files to `.gitignore`:
 
-a. `node_modules`
-b. `.vscode`
-c. `.eslintrc.js`
-d. `.env`
-e. `.DS_Store`
-f. `.package-lock.json`
+  * `node_modules`
+  * `.vscode`
+  * `.eslintrc.js`
+  * `.env`
+  * `.DS_Store`
+  * `.package-lock.json`
 
 ## Set up ESLint
 
