@@ -1,4 +1,4 @@
-# setting-up-a-new-development-project
+# Setting up a new development project
 
 This describes my policies on how to set up a new Node dev project in VS Code to run on Heroku.
 
