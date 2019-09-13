@@ -47,5 +47,29 @@ ESLint checks Javascript code against the [Javascript Standards](https://github.
 
 ESLint should now be working.
 
+## Set up Webpack
 
+Webpack is used to bundle assets into a distribution. [Webpack getting started](https://webpack.js.org/guides/getting-started/). 
 
+1. Install the following npm packages: `npm i webpack webpack-cli --save-dev`
+
+2. Create an `src` and `dist` folders
+
+3. Create JS source files in the src folder
+
+4. Add `"private": "true"` to the package.json file
+
+5. Create the file `webpack.config.js` with the following code:
+   `const path = require('path')`
+
+`module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+}`
+
+6. Add the following script to package.json:
+
+   `"build": "npx webpack --config webpack.config.js"`
